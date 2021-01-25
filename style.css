@@ -1,0 +1,194 @@
+div.header {
+    color: #ffffff;
+    font-weight: auto;
+    height: auto;
+    width: auto;
+    background-color: #3d0303;
+    background-image: linear-gradient(90deg,#501101,#6e2300);
+    padding: 10px 0;
+   
+}
+a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    font-size: large;
+}
+body {
+    font-family: "Open Sans",sans-serif;
+   
+    margin: auto;
+    background-image: linear-gradient(90deg,#a8331e,#e75d1c);
+}
+h2 {
+    color:rgb(255, 255, 255);
+    font-size: large;
+}
+hr{
+    height:2;color:inherit;
+}
+input[type=email],input[type=password],input[type=text] {
+    border:1px solid rgb(202, 201, 201);
+    box-shadow:inset 0 1px 3px rgb(216, 214, 214);
+    border-radius:5px;
+    color:rgb(29, 29, 29);
+    display:block;
+    font-family:inherit;
+    padding:9px 10px;
+    vertical-align: middle;
+    width:100%}
+input[type=email],input[type=password],input[type=text]{
+    outline:0;
+    border-color:#db5d22
+}
+input[type=email][disabled],input[type=password][disabled],input[type=text][disabled] {
+    background:#e6e6e6;
+    color:#3e3e3e;
+    cursor:not-allowed;
+    font-style:italic;
+}
+select {
+    height:40px;
+    border:1px solid #ccc;
+    background-color:#fff;
+    padding-bottom:0;
+    padding-top:0;
+}
+label {
+    display:inline-block;
+    margin:0 0 5px
+}
+input[type=checkbox] {
+    margin-right:5px;
+}
+textarea {
+    min-height:60px;
+    resize: vertical;
+}
+label {
+    color: white;
+
+}
+main {
+    background-color: #222;
+    margin-right: 0em;
+    padding: 0 23em;
+    border-color: none;
+    line-height: 60px;
+    height: 462px;
+    width: auto;
+    text-size-adjust: 100%;
+    tab-size: 4;
+    display: block;
+    font-size: 17.5px;
+    letter-spacing: normal;
+    box-sizing: border-box;
+}
+li {
+    text-decoration: none;
+    display: inline-flex;
+    
+}
+li a:hover {
+    background-color: rgb(255, 170, 59);
+}
+.active {
+        background-color: rgb(255, 0, 0);
+}
+div.nav-header {
+    position: absolute;
+    left: 750px;
+    top: 40px;
+    word-spacing: 0.5cm;
+}
+
+div.lists-footer {
+    position: absolute;
+    left: 360px;
+    top: 600px;
+    word-spacing: 0.5cm;
+}
+div.contact {
+    position: absolute;
+    left: 1020px;
+    top: 600px;
+    word-spacing: 0.5cm;
+    
+    
+}
+div.app-links {
+    display: flex;
+    
+}
+span {
+    color: rgb(91, 119, 243);
+}
+div.user-info {
+    height: 65px;
+    width: 540px;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    tab-size: 4;
+    font-size: 16px;
+}
+div.best {
+    display: inline;
+}
+div.space {
+    background-color: rgb(243, 223, 41);
+    background-image: linear-gradient(90deg,#863803,#da5d24);
+}
+.logo img {
+    background-image: url(frontendmasters.png);
+    height: 40px;
+    margin-top: 5px;
+    margin: 15px;
+}
+footer {
+    background-color: #111;
+    height: 290px;
+    width: auto;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 70px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  
+
+.SocialMediaLinks a.fa-twitter { 
+    color: #00aced;
+}
+.SocialMediaLinks a.fa-facebook { 
+    color: #3b5998; 
+}
+.SocialMediaLinks a.fa-instagram { 
+    color: #f77de6; 
+}
+.SocialMediaLinks a.fa-youtube { 
+    color: #ff0404; 
+}
+.SocialMediaLinks a.fa-vimeo { 
+    color: #e65e4c; 
+}
+
+
+  .SocialMediaLinks a {
+      font-size: 30px;
+      margin: 0 10px 0 0;
+      color: #ffffff;
+      text-decoration: none;
+  }
