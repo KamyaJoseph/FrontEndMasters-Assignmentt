@@ -23,11 +23,22 @@
       <li class="item"> <a href="/login/">Login</a> </li> 
       <li class="item"> <a class="active" href="/join/">JoinNow</a> </li> 
      </ul> 
-    
+   
    </div> 
 </div> 
 
-<main id="main-content" role="main"> 
+<div class="main">
+  <svg class="diagonal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 4" preserveAspectRatio="none">
+    <defs>
+      <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#c02d28"></stop>
+        <stop offset="100%" stop-color="#e66225"></stop>
+      </linearGradient>
+    </defs>
+    <polygon points="0,0.5 0,0 100,0 100,3" fill="url(#linear)"></polygon>
+  </svg>
+
+  <main id="main-content" role="main"> 
   <form id="loginForm" method="post" action="/login/"> 
     <div class="user-info"> 
      <label for="username">Username or Email</label> 
@@ -41,12 +52,14 @@
     <div class="user-info"> 
       
      <label for="remember"> <input id="remember" name="remember" type="checkbox"> Remember Me </label>
-     <button type="submit" class="active" disabled><a href="/login/"> Log In </a></button> 
+    </div>
+    <div class="user-log">
+     <button type="submit" class="active" disabled><a href="/login/"> Log In </a></button> <br>
        <a class="recover" href="/recover-password/">Forgot your password?</a> 
     </div>
 </form>
 </main>
-
+</div>
     
 <div class="lists-footer">
       <ul class="footer"> 
@@ -78,6 +91,7 @@
       <div class="contact"> 
        <span><label>Email:</label> <a style="color: yellow;" href="morgan:joshmorganking25@gmail.com">joshmorganking25@gmail.com</a></span> 
        <h2> © JoMorKin International.</h2>
+       <h3 style="color: rgb(0, 183, 255); word-spacing: normal;">BY KAMYA JOSEPH</h3>
        
      </div>
 </div>

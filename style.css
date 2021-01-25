@@ -17,9 +17,9 @@ a {
 }
 body {
     font-family: "Open Sans",sans-serif;
-   
+    background-color: #222;
     margin: auto;
-    background-image: linear-gradient(90deg,#a8331e,#e75d1c);
+    
 }
 h2 {
     color:rgb(255, 255, 255);
@@ -48,6 +48,12 @@ input[type=email][disabled],input[type=password][disabled],input[type=text][disa
     cursor:not-allowed;
     font-style:italic;
 }
+
+.active {
+    border-radius: 20px;
+    padding: 9px 10px;
+}
+
 select {
     height:40px;
     border:1px solid #ccc;
@@ -70,10 +76,16 @@ label {
     color: white;
 
 }
+
+svg {
+    background-color: #222;
+}
+
 main {
     background-color: #222;
     margin-right: 0em;
-    padding: 0 23em;
+    margin: 0;
+    padding: 10px 23em;
     border-color: none;
     line-height: 60px;
     height: 462px;
@@ -106,19 +118,20 @@ div.nav-header {
 div.lists-footer {
     position: absolute;
     left: 360px;
-    top: 600px;
+    top: 655px;
     word-spacing: 0.5cm;
 }
 div.contact {
     position: absolute;
     left: 1020px;
-    top: 600px;
+    top: 700px;
     word-spacing: 0.5cm;
     
     
 }
 div.app-links {
     display: flex;
+    margin: 3px;
     
 }
 span {
@@ -141,10 +154,10 @@ div.space {
     background-image: linear-gradient(90deg,#863803,#da5d24);
 }
 .logo img {
-    background-image: url(frontendmasters.png);
     height: 40px;
     margin-top: 5px;
-    margin: 15px;
+    margin: 20px;
+    padding: 0;
 }
 footer {
     background-color: #111;
